@@ -1,0 +1,66 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fafafa;
+}
+
+a, a:focus, a:hover, a:active {
+	text-decoration: none;
+	outline: none;
+}
+
+header {
+	background-color: #00BFA5;
+	color: #fff;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	box-shadow: 0 1px 10px #616161;
+}
+header a {
+	color: #fff;
+	font-weight: 200;
+	display: block;
+}
+header a:hover {
+	color: #fff;
+}
+header h1 {
+	float: left;
+	margin: auto 0;
+	padding: 30px 20px;
+	font-size: 3vmin;
+}
+header h1 a {
+	color: #fff;
+}
+
+header nav {
+	float: right;
+}
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li a {
+	padding: 10px;
+	height: 100%;
+}
+header nav ul li a:hover {
+	background-color: #80CBC4;
+}
+
+#intro {}
+
+#intro h2{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: lowercase;
+	text-align: center;
+	line-height: 10;
+	margin: 0;
+}
